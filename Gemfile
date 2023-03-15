@@ -98,7 +98,7 @@ gem 'google-cloud-dialogflow'
 ##-- apm and error monitoring ---#
 # loaded only when environment variables are set.
 # ref application.rb
-gem 'ddtrace', require: false
+gem 'ddtrace', require: true
 gem 'elastic-apm', require: false
 gem 'newrelic_rpm', require: false
 gem 'newrelic-sidekiq-metrics', require: false
